@@ -73,7 +73,7 @@ public class JZombiesBuilder implements ContextBuilder<Object> {
 
 		
 		//here I set the random seed to a static value to ensure constant input
-		RandomHelper.setSeed(1);
+		//RandomHelper.setSeed(1);
 
 		//here I add the JZombiesBuilder to the context to enable the call of the ScheduledMethod
 		context.add(this);
