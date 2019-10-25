@@ -90,7 +90,7 @@ public class JZombiesBuilder implements ContextBuilder<Object> {
 				50);
 
 		GridFactory gridFactory = GridFactoryFinder.createGridFactory(null);
-		Grid<Object> grid = gridFactory.createGrid("grid", context,
+		grid = gridFactory.createGrid("grid", context,
 				new GridBuilderParameters<Object>(new WrapAroundBorders(),
 						new SimpleGridAdder<Object>(), true, 50, 50));
 
